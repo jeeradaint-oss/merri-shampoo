@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>จัดการคำสั่งซื้อ (Admin) — Body Scent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">Body Scent</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+          <li><a href="order.html">สั่งซื้อ</a></li>
+          <li><a href="admin.html">แอดมิน</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Admin Dashboard</span>
+          <h1>รายการคำสั่งซื้อทั้งหมด</h1>
+          <p style="color: var(--text-secondary); margin-top: 0.75rem;">
+            แสดงข้อมูลคำสั่งซื้อล่าสุดจากระบบ Google Sheets
+          </p>
+        </div>
+
+        <div style="background-color: var(--bg-card); border: var(--border-thin); overflow-x: auto;">
+          <table id="ordersTable" style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;">
+            <thead>
+              <tr style="border-bottom: var(--border-thin); background-color: var(--bg-secondary);">
+                <th style="padding: 1.1rem 1.25rem; font-weight: 500; letter-spacing: 0.05em;">วันเวลา</th>
+                <th style="padding: 1.1rem 1.25rem; font-weight: 500; letter-spacing: 0.05em;">ชื่อลูกค้า</th>
+                <th style="padding: 1.1rem 1.25rem; font-weight: 500; letter-spacing: 0.05em;">เบอร์โทร / Line</th>
+                <th style="padding: 1.1rem 1.25rem; font-weight: 500; letter-spacing: 0.05em;">รายการสินค้า</th>
+                <th style="padding: 1.1rem 1.25rem; font-weight: 500; letter-spacing: 0.05em;">จำนวนเงินรวม</th>
+                <th style="padding: 1.1rem 1.25rem; font-weight: 500; letter-spacing: 0.05em;">หมายเหตุ</th>
+              </tr>
+            </thead>
+            <tbody style="divide-y: var(--border-thin);">
+              <!-- Rows injected by script.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="index.html" class="brand-logo">Body Scent</a>
+      <p>กลิ่นหอมที่สะท้อนตัวตนและอารมณ์ของคุณอย่างละเมียดละไม</p>
+      <p style="margin-top: 0.75rem; font-size: 0.75rem; color: var(--text-muted);">&copy; 2026 Body Scent. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

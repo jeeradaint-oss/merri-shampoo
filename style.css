@@ -1,0 +1,90 @@
+/* ==========================================================================
+   Body Scent - Luxury Minimalist Theme
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500&family=Prompt:wght@300;400;500&display=swap');
+
+:root {
+  /* Core Palette: White, Cream, Deep Beige & Soft Bronze */
+  --bg-primary: #FAF8F5;        /* Off-white / Soft Cream */
+  --bg-secondary: #F2EDE4;      /* Warm Cream */
+  --bg-card: #FFFFFF;           /* Pure White for elevated surfaces */
+  --beige-dark: #D8CFC2;        /* Deep Beige for subtle borders */
+  
+  --text-primary: #24211E;      /* Soft Charcoal */
+  --text-secondary: #68625B;    /* Muted Taupe */
+  --text-muted: #9A938B;
+  
+  --accent-bronze: #A68A64;     /* Soft Gold / Bronze Accent */
+  --accent-bronze-hover: #8C7250;
+  --border-thin: 1px solid rgba(36, 33, 30, 0.14);
+
+  /* Mood Subtle Accents */
+  --mood-fresh: #2F4F4F;        /* Deep Pine / Slate Green */
+  --mood-sweet: #7D6378;        /* Muted Plum / Medium Mauve */
+  --mood-confident: #3D4B59;    /* Deep Slate Blue-Grey */
+  --mood-romance: #B56E6E;      /* Soft Dusty Rose / Muted Red */
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', 'Prompt', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Generous Spacing */
+  --space-xs: 0.75rem;
+  --space-sm: 1.5rem;
+  --space-md: 3rem;
+  --space-lg: 5rem;
+  --space-xl: 8rem;
+
+  /* Layout & Transitions */
+  --container-max: 1180px;
+  --transition-smooth: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* ==========================================================================
+   Reset & Base Styles
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition-smooth);
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+h1, h2, h3, .brand-logo, .serif-title {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var

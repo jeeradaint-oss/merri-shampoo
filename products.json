@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bs-fresh-200",
+    "name": "แชมพู Fresh เล็ก",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "200ml",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "สัมผัสความสะอาดสดชื่นอย่างมีระดับ ผสานกลิ่นอายธรรมชาติที่ให้ความรู้สึกเบาสบายและผ่อนคลายตลอดวัน"
+  },
+  {
+    "id": "bs-fresh-450",
+    "name": "แชมพู Fresh ใหญ่",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "450ml",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "ขนาดคุ้มค่าสำหรับใช้เป็นประจำ มอบความสดชื่นล้ำลึกและกลิ่นหอมสะอาดแบบมินิมอลที่ติดทนนาน"
+  },
+  {
+    "id": "bs-sweet-200",
+    "name": "แชมพู Sweet เล็ก",
+    "mood": "sweet",
+    "type": "rollon",
+    "size": "200ml",
+    "price": 89,
+    "image": "images/sweet.jpg",
+    "description": "กลิ่นหอมหวานละมุนลุ่มลึก ไม่ฉูดฉาด ให้ความรู้สึกอ่อนโยน อบอุ่น และน่าค้นหาในทุกสัมผัส"
+  },
+  {
+    "id": "bs-sweet-450",
+    "name": "แชมพู Sweet ใหญ่",
+    "mood": "sweet",
+    "type": "rollon",
+    "size": "450ml",
+    "price": 199,
+    "image": "images/sweet.jpg",
+    "description": "ขวดใหญ่สำหรับผู้ที่หลงใหลในความละมุนระดับพรีเมียม มอบกลิ่นหอมนุ่มนวลอย่างมีเอกลักษณ์"
+  }
+]
